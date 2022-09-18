@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Andreacnas/COMP229-F2022-WEEK2-LAB-301250129#readme",
   "dependencies": {
+    "connect": "^3.7.0",
     "express": "^4.18.1"
   }
 }
