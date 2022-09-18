@@ -1,0 +1,23 @@
+{
+  "name": "comp229-f2022-week2-lab-301250129",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andreacnas/COMP229-F2022-WEEK2-LAB-301250129.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andreacnas/COMP229-F2022-WEEK2-LAB-301250129/issues"
+  },
+  "homepage": "https://github.com/Andreacnas/COMP229-F2022-WEEK2-LAB-301250129#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
