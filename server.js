@@ -16,8 +16,15 @@ function helloHTML(req,res,next){
     res.end('<h1>Hello from NodeJS Application as html</h1>');
 }
 
+//Custom middleware: application/json
+function helloJSON(req,res,next){
+    res.setHeader('Content-Type', 'application/json');
+    res.end('{“message”: “Hello from NodeJS Application as json”}');
+}
+
 //Add middleware to connect application
 app.use('/html',helloHTML);
+app.use('/json',helloJSON);
 app.use('/',helloPlain);
 
 //Run app
